@@ -10,10 +10,20 @@
     margin-top: 20px;
 }
 
+.mb-20 {
+    margin-top: 20px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* header */
 .header-container {
     width: 100%;
-    height: 100px;
+    height: 150px;
 }
 
 /* jumbotron */
@@ -25,9 +35,30 @@
 /* main */
 .main-container {
     width: 100%;
-    height: 300px;
 }
 
+.top-container {
+    width: 100%;
+    height: 100px;
+}
+
+.colonna-sinistra, .colonna-destra {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.colonna-centrale {
+    width: 56%;
+    height: 100%;
+    float: left;
+    margin: 0 2%;
+}
+
+.central-container {
+    height: 100%;
+    padding-bottom: 2%;
+}
 /* debug */
 header .debug {
     background-color: blueviolet;
@@ -39,4 +70,18 @@ section .debug {
 
 main div.debug {
     background-color: darkblue;
+}
+
+.main-container.debug {
+    height: 500px;
+}
+
+.top-container.debug {
+    background-color: darkcyan;
+}
+
+div .colonna-sinistra.debug,
+div .colonna-destra.debug,
+div .colonna-centrale.debug {
+    background-color: darkcyan;
 }
