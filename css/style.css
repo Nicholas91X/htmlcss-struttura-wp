@@ -1,0 +1,42 @@
+/* commons */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+/* header */
+.header-container {
+    width: 100%;
+    height: 100px;
+}
+
+/* jumbotron */
+.jumbotron-container {
+    width: 100%;
+    height: 300px;
+}
+
+/* main */
+.main-container {
+    width: 100%;
+    height: 300px;
+}
+
+/* debug */
+header .debug {
+    background-color: blueviolet;
+}
+
+section .debug {
+    background-color: burlywood;
+}
+
+main div.debug {
+    background-color: darkblue;
+}
