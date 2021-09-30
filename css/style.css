@@ -2,7 +2,7 @@
 
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -22,19 +22,19 @@
 
 /* header */
 .header-container {
-    width: 100%;
+    width: 80%;
     height: 150px;
 }
 
 /* jumbotron */
 .jumbotron-container {
-    width: 100%;
+    width: 80%;
     height: 300px;
 }
 
 /* main */
 .main-container {
-    width: 100%;
+    width: 80%;
 }
 
 .top-container {
@@ -63,7 +63,7 @@
 
 /* footer */
 .footer-container {
-    width: 100%;
+    width: 80%;
     height: 75px;
 }
 
@@ -84,10 +84,7 @@ main div.debug {
     height: 700px;
 }
 
-.top-container.debug {
-    background-color: darkcyan;
-}
-
+div .top-container.debug,
 div .colonna-sinistra.debug,
 div .colonna-destra.debug,
 div .colonna-centrale.debug {
